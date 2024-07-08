@@ -1,0 +1,87 @@
+﻿@model IEnumerable<FlowerBasketProject.Models.Entity.Product>
+
+@{
+    ViewData["Title"] = "Products";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="page-header">
+    <div class="row align-items-end">
+        <div class="col-lg-8">
+            <div class="page-header-title">
+                <i class="ik ik-box bg-blue"></i>
+                <div class="d-inline">
+                    <h5>Products</h5>
+                    <span>Manage products in the system</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <nav class="breadcrumb-container" aria-label="breadcrumb">
+                <a href="@Url.Action("Create")" class="btn btn-primary">Create New Product</a>
+            </nav>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-header">
+                <h3>Products List</h3>
+                <form class="form-inline my-2 my-lg-0" method="get">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" name="searchString" value="@ViewBag.CurrentFilter">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+            <div class="card-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Image</th>
+                            <th>
+                                <a asp-action="Index" asp-route-sortOrder="@ViewBag.NameSortParm">
+                                    @Html.DisplayNameFor(model => model.First().Name)
+                                </a>
+                            </th>
+                            <th>@Html.DisplayNameFor(model => model.First().Description)</th>
+                            <th>
+                                <a asp-action="Index" asp-route-sortOrder="@ViewBag.PriceSortParm">
+                                    @Html.DisplayNameFor(model => model.First().Price)
+                                </a>
+                            </th>
+                            <th>@Html.DisplayNameFor(model => model.First().Category.Name)</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    @if (item.Images != null && item.Images.Any())
+                                    {
+                                        <img src="@item.Images.First().Url" alt="@item.Name" class="img-thumbnail" style="width: 100px; height: auto;" />
+                                    }
+                                    else
+                                    {
+                                        <span>No Image</span>
+                                    }
+                                </td>
+                                <td>@Html.DisplayFor(modelItem => item.Name)</td>
+                                <td>@Html.DisplayFor(modelItem => item.Description)</td>
+                                <td>@Html.DisplayFor(modelItem => item.Price)</td>
+                                <td>@Html.DisplayFor(modelItem => item.Category.Name)</td>
+                                <td>
+                                    <a href="@Url.Action("Edit", new { id = item.Id })" class="btn btn-primary btn-sm">Edit</a>
+                                    <a href="@Url.Action("Details", new { id = item.Id })" class="btn btn-info btn-sm">Details</a>
+                                    <a href="@Url.Action("Delete", new { id = item.Id })" class="btn btn-danger btn-sm">Delete</a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

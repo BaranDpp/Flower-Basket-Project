@@ -1,0 +1,105 @@
+﻿@model IEnumerable<FlowerBasketProject.Models.Entity.Order>
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Your Orders</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .orders-container {
+            margin-top: 50px;
+        }
+
+        .order-card {
+            margin-bottom: 20px;
+            border: 1px solid #dee2e6;
+            border-radius: 5px;
+            padding: 20px;
+            background-color: #ffffff;
+        }
+
+        .order-header {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .order-date {
+            font-size: 0.9rem;
+            color: #6c757d;
+        }
+
+        .product-list {
+            margin-top: 10px;
+        }
+
+        .product-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid #dee2e6;
+        }
+
+            .product-item:last-child {
+                border-bottom: none;
+            }
+
+        .product-name {
+            font-weight: 500;
+        }
+
+        .product-quantity,
+        .product-price {
+            color: #6c757d;
+        }
+
+        .total-price {
+            font-weight: 700;
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container orders-container">
+        <h2 class="mb-4">Your Orders</h2>
+        @foreach (var order in Model)
+        {
+            <div class="order-card">
+                <div class="order-header">
+                    Order #@order.Id
+                    <span class="order-date">(@order.OrderDate.ToString("MMM dd, yyyy"))</span>
+                </div>
+                <div class="product-list">
+                    @foreach (var item in order.OrderDetails)
+                    {
+                        <div class="product-item">
+                            <div class="product-name">@item.Product.Name</div>
+                            <div class="product-quantity">x @item.Quantity</div>
+                            <div class="product-price">@item.Product.Price.ToString("C")</div>
+                        </div>
+                    }
+                </div>
+                <div class="total-price">
+                    Total: @order.OrderDetails.Sum(od => od.Quantity * od.Product.Price).ToString("C")
+                </div>
+            </div>
+        }
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>

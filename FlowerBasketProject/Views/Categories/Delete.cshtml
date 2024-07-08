@@ -1,0 +1,43 @@
+﻿@model FlowerBasketProject.Models.Entity.Category
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="page-header">
+    <div class="row align-items-end">
+        <div class="col-lg-8">
+            <div class="page-header-title">
+                <i class="ik ik-trash-2 bg-red"></i>
+                <div class="d-inline">
+                    <h5>Delete Category</h5>
+                    <span>Confirm deletion of the selected category</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-8">
+        <div class="card">
+            <div class="card-header"><h3>Are you sure you want to delete this?</h3></div>
+            <div class="card-body">
+                <div class="form-group">
+                    <dl class="row">
+                        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Name)</dt>
+                        <dd class="col-sm-10">@Html.DisplayFor(model => model.Name)</dd>
+                    </dl>
+                </div>
+                <div class="form-group">
+                    <form asp-action="Delete">
+                        <input type="hidden" asp-for="Id" />
+                        <input type="submit" value="Delete" class="btn btn-danger" /> |
+                        <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

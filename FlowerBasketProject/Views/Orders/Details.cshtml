@@ -1,0 +1,41 @@
+﻿@model FlowerBasketProject.Models.Entity.Order
+
+@{
+    ViewData["Title"] = "Order Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="page-header">
+    <div class="row align-items-end">
+        <div class="col-lg-8">
+            <div class="page-header-title">
+                <i class="ik ik-file-text bg-blue"></i>
+                <div class="d-inline">
+                    <h5>Order Details</h5>
+                    <span>Details of the selected order</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-8">
+        <div class="card">
+            <div class="card-header"><h3>Order Information</h3></div>
+            <div class="card-body">
+                <dl class="row">
+                    <dt class="col-sm-2">@Html.DisplayNameFor(model => model.OrderDate)</dt>
+                    <dd class="col-sm-10">@Html.DisplayFor(model => model.OrderDate)</dd>
+
+                    <dt class="col-sm-2">@Html.DisplayNameFor(model => model.User.UserName)</dt>
+                    <dd class="col-sm-10">@Html.DisplayFor(model => model.User.UserName)</dd>
+                </dl>
+                <div class="form-group">
+                    <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-primary">Edit</a>
+                    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

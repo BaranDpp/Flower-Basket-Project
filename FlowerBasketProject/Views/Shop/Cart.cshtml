@@ -1,0 +1,104 @@
+﻿@{ Layout = null; }
+@model FlowerBasketProject.Models.Entity.Cart
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Your Cart</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .cart-container {
+            margin-top: 50px;
+        }
+
+        .table thead th {
+            border: none;
+            font-weight: 600;
+            background-color: #343a40;
+            color: white;
+        }
+
+        .table tbody tr {
+            border-bottom: 1px solid #dee2e6;
+        }
+
+        .table tbody td {
+            vertical-align: middle;
+        }
+
+        .product-name {
+            font-weight: 500;
+        }
+
+        .checkout-btn {
+            background-color: #28a745;
+            border-color: #28a745;
+            color: white;
+        }
+
+        .checkout-btn:hover {
+            background-color: #218838;
+            border-color: #1e7e34;
+        }
+
+        .total-row {
+            font-weight: 700;
+        }
+
+        .total-label {
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container cart-container">
+        <h2 class="mb-4">Your Cart</h2>
+        <div class="table-responsive">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Product Name</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.Products)
+                    {
+                        <tr>
+                            <td class="product-name">@item.ProductName</td>
+                            <td>@item.Quantity</td>
+                            <td>@item.Price.ToString("C")</td>
+                            <td>₺@(item.Quantity * item.Price)</td>
+                        </tr>
+                    }
+                </tbody>
+                <tfoot>
+                    <tr class="total-row">
+                        <td colspan="3" class="total-label">Grand Total</td>
+                        <td>@Model.Products.Sum(item => item.Quantity * item.Price).ToString("C")</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+        <div class="d-flex justify-content-end mt-4">
+            <a asp-action="Checkout" class="btn checkout-btn btn-lg">Proceed to Checkout</a>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>

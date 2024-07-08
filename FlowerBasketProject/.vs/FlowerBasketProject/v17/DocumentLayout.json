@@ -1,0 +1,376 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\emre_\\source\\repos\\FlowerBasketProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A87631CA-392C-438C-B659-C88D56F699EC}|FlowerBasketProject.csproj|c:\\users\\emre_\\source\\repos\\flowerbasketproject\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A87631CA-392C-438C-B659-C88D56F699EC}|FlowerBasketProject.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A87631CA-392C-438C-B659-C88D56F699EC}|FlowerBasketProject.csproj|c:\\users\\emre_\\source\\repos\\flowerbasketproject\\models\\entity\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A87631CA-392C-438C-B659-C88D56F699EC}|FlowerBasketProject.csproj|solutionrelative:models\\entity\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A87631CA-392C-438C-B659-C88D56F699EC}|FlowerBasketProject.csproj|c:\\users\\emre_\\source\\repos\\flowerbasketproject\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A87631CA-392C-438C-B659-C88D56F699EC}|FlowerBasketProject.csproj|solutionrelative:views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A87631CA-392C-438C-B659-C88D56F699EC}|FlowerBasketProject.csproj|c:\\users\\emre_\\source\\repos\\flowerbasketproject\\models\\context\\applicationdbcontextseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A87631CA-392C-438C-B659-C88D56F699EC}|FlowerBasketProject.csproj|solutionrelative:models\\context\\applicationdbcontextseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A87631CA-392C-438C-B659-C88D56F699EC}|FlowerBasketProject.csproj|c:\\users\\emre_\\source\\repos\\flowerbasketproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A87631CA-392C-438C-B659-C88D56F699EC}|FlowerBasketProject.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A87631CA-392C-438C-B659-C88D56F699EC}|FlowerBasketProject.csproj|c:\\users\\emre_\\source\\repos\\flowerbasketproject\\views\\orders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A87631CA-392C-438C-B659-C88D56F699EC}|FlowerBasketProject.csproj|solutionrelative:views\\orders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A87631CA-392C-438C-B659-C88D56F699EC}|FlowerBasketProject.csproj|c:\\users\\emre_\\source\\repos\\flowerbasketproject\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A87631CA-392C-438C-B659-C88D56F699EC}|FlowerBasketProject.csproj|solutionrelative:views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A87631CA-392C-438C-B659-C88D56F699EC}|FlowerBasketProject.csproj|c:\\users\\emre_\\source\\repos\\flowerbasketproject\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A87631CA-392C-438C-B659-C88D56F699EC}|FlowerBasketProject.csproj|solutionrelative:views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A87631CA-392C-438C-B659-C88D56F699EC}|FlowerBasketProject.csproj|c:\\users\\emre_\\source\\repos\\flowerbasketproject\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A87631CA-392C-438C-B659-C88D56F699EC}|FlowerBasketProject.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A87631CA-392C-438C-B659-C88D56F699EC}|FlowerBasketProject.csproj|c:\\users\\emre_\\source\\repos\\flowerbasketproject\\models\\entity\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A87631CA-392C-438C-B659-C88D56F699EC}|FlowerBasketProject.csproj|solutionrelative:models\\entity\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A87631CA-392C-438C-B659-C88D56F699EC}|FlowerBasketProject.csproj|c:\\users\\emre_\\source\\repos\\flowerbasketproject\\models\\entity\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A87631CA-392C-438C-B659-C88D56F699EC}|FlowerBasketProject.csproj|solutionrelative:models\\entity\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A87631CA-392C-438C-B659-C88D56F699EC}|FlowerBasketProject.csproj|c:\\users\\emre_\\source\\repos\\flowerbasketproject\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A87631CA-392C-438C-B659-C88D56F699EC}|FlowerBasketProject.csproj|solutionrelative:controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A87631CA-392C-438C-B659-C88D56F699EC}|FlowerBasketProject.csproj|c:\\users\\emre_\\source\\repos\\flowerbasketproject\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A87631CA-392C-438C-B659-C88D56F699EC}|FlowerBasketProject.csproj|solutionrelative:controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A87631CA-392C-438C-B659-C88D56F699EC}|FlowerBasketProject.csproj|c:\\users\\emre_\\source\\repos\\flowerbasketproject\\views\\shop\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A87631CA-392C-438C-B659-C88D56F699EC}|FlowerBasketProject.csproj|solutionrelative:views\\shop\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A87631CA-392C-438C-B659-C88D56F699EC}|FlowerBasketProject.csproj|c:\\users\\emre_\\source\\repos\\flowerbasketproject\\views\\default\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A87631CA-392C-438C-B659-C88D56F699EC}|FlowerBasketProject.csproj|solutionrelative:views\\default\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A87631CA-392C-438C-B659-C88D56F699EC}|FlowerBasketProject.csproj|c:\\users\\emre_\\source\\repos\\flowerbasketproject\\views\\shop\\ordersuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A87631CA-392C-438C-B659-C88D56F699EC}|FlowerBasketProject.csproj|solutionrelative:views\\shop\\ordersuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A87631CA-392C-438C-B659-C88D56F699EC}|FlowerBasketProject.csproj|c:\\users\\emre_\\source\\repos\\flowerbasketproject\\models\\entity\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A87631CA-392C-438C-B659-C88D56F699EC}|FlowerBasketProject.csproj|solutionrelative:models\\entity\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A87631CA-392C-438C-B659-C88D56F699EC}|FlowerBasketProject.csproj|c:\\users\\emre_\\source\\repos\\flowerbasketproject\\views\\why\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A87631CA-392C-438C-B659-C88D56F699EC}|FlowerBasketProject.csproj|solutionrelative:views\\why\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A87631CA-392C-438C-B659-C88D56F699EC}|FlowerBasketProject.csproj|c:\\users\\emre_\\source\\repos\\flowerbasketproject\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A87631CA-392C-438C-B659-C88D56F699EC}|FlowerBasketProject.csproj|solutionrelative:views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A87631CA-392C-438C-B659-C88D56F699EC}|FlowerBasketProject.csproj|c:\\users\\emre_\\source\\repos\\flowerbasketproject\\wwwroot\\giftos-html\\testimonial.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A87631CA-392C-438C-B659-C88D56F699EC}|FlowerBasketProject.csproj|solutionrelative:wwwroot\\giftos-html\\testimonial.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A87631CA-392C-438C-B659-C88D56F699EC}|FlowerBasketProject.csproj|c:\\users\\emre_\\source\\repos\\flowerbasketproject\\wwwroot\\giftos-html\\why.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A87631CA-392C-438C-B659-C88D56F699EC}|FlowerBasketProject.csproj|solutionrelative:wwwroot\\giftos-html\\why.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\emre_\\source\\repos\\FlowerBasketProject\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\emre_\\source\\repos\\FlowerBasketProject\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Controllers\\ProductsController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAYwB8AAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T21:44:45.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\emre_\\source\\repos\\FlowerBasketProject\\Models\\Entity\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Entity\\Product.cs",
+              "ToolTip": "C:\\Users\\emre_\\source\\repos\\FlowerBasketProject\\Models\\Entity\\Product.cs",
+              "RelativeToolTip": "Models\\Entity\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T21:44:40.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\emre_\\source\\repos\\FlowerBasketProject\\Views\\Orders\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Orders\\Create.cshtml",
+              "ToolTip": "C:\\Users\\emre_\\source\\repos\\FlowerBasketProject\\Views\\Orders\\Create.cshtml",
+              "RelativeToolTip": "Views\\Orders\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-03T21:42:03.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\emre_\\source\\repos\\FlowerBasketProject\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Products\\Index.cshtml",
+              "ToolTip": "C:\\Users\\emre_\\source\\repos\\FlowerBasketProject\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "Views\\Products\\Index.cshtml",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAAAEQAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-03T21:33:16.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Cart.cshtml",
+              "DocumentMoniker": "C:\\Users\\emre_\\source\\repos\\FlowerBasketProject\\Views\\Shop\\Cart.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shop\\Cart.cshtml",
+              "ToolTip": "C:\\Users\\emre_\\source\\repos\\FlowerBasketProject\\Views\\Shop\\Cart.cshtml",
+              "RelativeToolTip": "Views\\Shop\\Cart.cshtml",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAAAFEAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-03T17:07:11.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Users\\emre_\\source\\repos\\FlowerBasketProject\\Models\\Entity\\Cart.cs",
+              "RelativeDocumentMoniker": "Models\\Entity\\Cart.cs",
+              "ToolTip": "C:\\Users\\emre_\\source\\repos\\FlowerBasketProject\\Models\\Entity\\Cart.cs",
+              "RelativeToolTip": "Models\\Entity\\Cart.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T17:05:58.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\emre_\\source\\repos\\FlowerBasketProject\\Views\\Shop\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shop\\Index.cshtml",
+              "ToolTip": "C:\\Users\\emre_\\source\\repos\\FlowerBasketProject\\Views\\Shop\\Index.cshtml",
+              "RelativeToolTip": "Views\\Shop\\Index.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAqwDEAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-03T16:09:22.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ShopController.cs",
+              "DocumentMoniker": "C:\\Users\\emre_\\source\\repos\\FlowerBasketProject\\Controllers\\ShopController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ShopController.cs",
+              "ToolTip": "C:\\Users\\emre_\\source\\repos\\FlowerBasketProject\\Controllers\\ShopController.cs",
+              "RelativeToolTip": "Controllers\\ShopController.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAmwHsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T16:24:45.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\emre_\\source\\repos\\FlowerBasketProject\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\emre_\\source\\repos\\FlowerBasketProject\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAACgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T17:06:28.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContextSeed.cs",
+              "DocumentMoniker": "C:\\Users\\emre_\\source\\repos\\FlowerBasketProject\\Models\\Context\\ApplicationDbContextSeed.cs",
+              "RelativeDocumentMoniker": "Models\\Context\\ApplicationDbContextSeed.cs",
+              "ToolTip": "C:\\Users\\emre_\\source\\repos\\FlowerBasketProject\\Models\\Context\\ApplicationDbContextSeed.cs",
+              "RelativeToolTip": "Models\\Context\\ApplicationDbContextSeed.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAUwDAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T20:08:04.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\emre_\\source\\repos\\FlowerBasketProject\\Models\\Entity\\Order.cs",
+              "RelativeDocumentMoniker": "Models\\Entity\\Order.cs",
+              "ToolTip": "C:\\Users\\emre_\\source\\repos\\FlowerBasketProject\\Models\\Entity\\Order.cs",
+              "RelativeToolTip": "Models\\Entity\\Order.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T17:08:40.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\emre_\\source\\repos\\FlowerBasketProject\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\emre_\\source\\repos\\FlowerBasketProject\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Controllers\\OrderController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T21:14:33.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\emre_\\source\\repos\\FlowerBasketProject\\Views\\Order\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Order\\Index.cshtml",
+              "ToolTip": "C:\\Users\\emre_\\source\\repos\\FlowerBasketProject\\Views\\Order\\Index.cshtml",
+              "RelativeToolTip": "Views\\Order\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-03T21:21:51.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\emre_\\source\\repos\\FlowerBasketProject\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\emre_\\source\\repos\\FlowerBasketProject\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "Controllers\\OrdersController.cs",
+              "ViewState": "AQIAAHAAAAAAAAAAAAAAAKkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T21:03:03.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "C:\\Users\\emre_\\source\\repos\\FlowerBasketProject\\Models\\Entity\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "Models\\Entity\\OrderDetail.cs",
+              "ToolTip": "C:\\Users\\emre_\\source\\repos\\FlowerBasketProject\\Models\\Entity\\OrderDetail.cs",
+              "RelativeToolTip": "Models\\Entity\\OrderDetail.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T17:09:03.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "OrderSuccess.cshtml",
+              "DocumentMoniker": "C:\\Users\\emre_\\source\\repos\\FlowerBasketProject\\Views\\Shop\\OrderSuccess.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shop\\OrderSuccess.cshtml",
+              "ToolTip": "C:\\Users\\emre_\\source\\repos\\FlowerBasketProject\\Views\\Shop\\OrderSuccess.cshtml",
+              "RelativeToolTip": "Views\\Shop\\OrderSuccess.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-03T20:02:33.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\emre_\\source\\repos\\FlowerBasketProject\\Views\\Default\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Default\\Index.cshtml",
+              "ToolTip": "C:\\Users\\emre_\\source\\repos\\FlowerBasketProject\\Views\\Default\\Index.cshtml",
+              "RelativeToolTip": "Views\\Default\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-03T16:16:06.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "testimonial.html",
+              "DocumentMoniker": "C:\\Users\\emre_\\source\\repos\\FlowerBasketProject\\wwwroot\\giftos-html\\testimonial.html",
+              "RelativeDocumentMoniker": "wwwroot\\giftos-html\\testimonial.html",
+              "ToolTip": "C:\\Users\\emre_\\source\\repos\\FlowerBasketProject\\wwwroot\\giftos-html\\testimonial.html",
+              "RelativeToolTip": "wwwroot\\giftos-html\\testimonial.html",
+              "ViewState": "AQIAANcAAAAAAAAAAAAYwBABAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-06-03T16:10:26.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\emre_\\source\\repos\\FlowerBasketProject\\Views\\Contact\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Contact\\Index.cshtml",
+              "ToolTip": "C:\\Users\\emre_\\source\\repos\\FlowerBasketProject\\Views\\Contact\\Index.cshtml",
+              "RelativeToolTip": "Views\\Contact\\Index.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAEUAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-03T16:08:34.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "why.html",
+              "DocumentMoniker": "C:\\Users\\emre_\\source\\repos\\FlowerBasketProject\\wwwroot\\giftos-html\\why.html",
+              "RelativeDocumentMoniker": "wwwroot\\giftos-html\\why.html",
+              "ToolTip": "C:\\Users\\emre_\\source\\repos\\FlowerBasketProject\\wwwroot\\giftos-html\\why.html",
+              "RelativeToolTip": "wwwroot\\giftos-html\\why.html",
+              "ViewState": "AQIAAIABAAAAAAAAAAAYwLkBAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-06-03T16:08:25.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\emre_\\source\\repos\\FlowerBasketProject\\Views\\Why\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Why\\Index.cshtml",
+              "ToolTip": "C:\\Users\\emre_\\source\\repos\\FlowerBasketProject\\Views\\Why\\Index.cshtml",
+              "RelativeToolTip": "Views\\Why\\Index.cshtml",
+              "ViewState": "AQIAACwAAAAAAAAAAAAAAEUAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-03T16:08:22.661Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

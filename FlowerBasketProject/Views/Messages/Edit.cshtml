@@ -1,0 +1,70 @@
+﻿@model FlowerBasketProject.Models.Entity.Message
+
+@{
+    ViewData["Title"] = "Edit Message";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="page-header">
+    <div class="row align-items-end">
+        <div class="col-lg-8">
+            <div class="page-header-title">
+                <i class="ik ik-edit bg-blue"></i>
+                <div class="d-inline">
+                    <h5>Edit Message</h5>
+                    <span>Edit the selected message details</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-8">
+        <div class="card">
+            <div class="card-header"><h3>Edit Message</h3></div>
+            <div class="card-body">
+                <form asp-action="Edit">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <input type="hidden" asp-for="Id" />
+                    <div class="form-group">
+                        <label asp-for="SenderName" class="control-label"></label>
+                        <input asp-for="SenderName" class="form-control" />
+                        <span asp-validation-for="SenderName" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Content" class="control-label"></label>
+                        <textarea asp-for="Content" class="form-control"></textarea>
+                        <span asp-validation-for="Content" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Timestamp" class="control-label"></label>
+                        <input asp-for="Timestamp" class="form-control" />
+                        <span asp-validation-for="Timestamp" class="text-danger"></span>
+                    </div>
+                    <div class="form-group form-check">
+                        <input class="form-check-input" type="checkbox" asp-for="IsRead" />
+                        <label class="form-check-label" asp-for="IsRead">
+                            @Html.DisplayNameFor(model => model.IsRead)
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="UserId" class="control-label"></label>
+                        <select asp-for="UserId" class="form-control" asp-items="ViewBag.UserId"></select>
+                        <span asp-validation-for="UserId" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Save" class="btn btn-primary" />
+                        <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

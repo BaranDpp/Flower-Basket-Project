@@ -1,0 +1,64 @@
+﻿@model FlowerBasketProject.Models.Entity.Product
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="page-header">
+    <div class="row align-items-end">
+        <div class="col-lg-8">
+            <div class="page-header-title">
+                <i class="ik ik-box bg-blue"></i>
+                <div class="d-inline">
+                    <h5>Product Details</h5>
+                    <span>Details of the selected product</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-header"><h3>Product Information</h3></div>
+            <div class="card-body">
+                <div class="form-group">
+                    <dl class="row">
+                        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Name)</dt>
+                        <dd class="col-sm-10">@Html.DisplayFor(model => model.Name)</dd>
+
+                        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Description)</dt>
+                        <dd class="col-sm-10">@Html.DisplayFor(model => model.Description)</dd>
+
+                        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Price)</dt>
+                        <dd class="col-sm-10">@Html.DisplayFor(model => model.Price)</dd>
+
+                        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Category.Name)</dt>
+                        <dd class="col-sm-10">@Html.DisplayFor(model => model.Category.Name)</dd>
+
+                        <dt class="col-sm-2">Images</dt>
+                        <dd class="col-sm-10">
+                            @if (Model.Images != null && Model.Images.Any())
+                            {
+                                foreach (var image in Model.Images)
+                                {
+                                    <img src="@image.Url" alt="@Model.Name" class="img-thumbnail" style="width: 100px; height: auto;" />
+                                }
+                            }
+                            else
+                            {
+                                <span>No Images Available</span>
+                            }
+                        </dd>
+                    </dl>
+                </div>
+                <div class="form-group">
+                    <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-primary">Edit</a>
+                    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
