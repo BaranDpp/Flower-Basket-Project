@@ -18,16 +18,9 @@ Proje içerisinde aşağıdaki temel e-ticaret fonksiyonları bulunmaktadır:
 
 Bu projeyi geliştirirken kullandığım teknoloji yığını:
 
-* **Frontend:** [Örn: React, HTML/CSS, Javascript]
-* **Backend:** [Örn: .NET Core, Node.js - Yoksa bu satırı sil]
-* **Veritabanı:** [Örn: MSSQL, MongoDB - Yoksa bu satırı sil]
-* **Stil:** [Örn: Bootstrap, Tailwind, SCSS]
-
-## 📸 Ekran Görüntüleri
-
-| Ana Sayfa | Ürün Detay |
-| :---: | :---: |
-| ![Ana Sayfa](https://via.placeholder.com/300x200?text=Ana+Sayfa) | ![Ürün Detay](https://via.placeholder.com/300x200?text=Urun+Detay) |
+* **Frontend:** HTML/CSS
+* **Backend:** .NET Core
+* **Veritabanı:** MSSQL
 
 ## 💻 Kurulum (Installation)
 
